@@ -39,4 +39,5 @@ contract CharityDonation {
         
         payable(owner).transfer(address(this).balance);
     }
+    
 }
